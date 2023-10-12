@@ -2,9 +2,9 @@ self.addEventListener('install', e => {
   e.waitUntil(
       caches.open('task-cache').then(cache => {
           return cache.addAll([
-              '/',
-              '/index.html',
-              '/app.js'
+              '/PWAtest/',
+              '/PWAtest/index.html',
+              '/PWAtest/app.js'
           ]);
       })
   );
