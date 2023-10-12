@@ -2,13 +2,13 @@
   "name": "ToDo PWA",
   "short_name": "ToDo",
   "description": "A simple ToDo PWA",
-  "start_url": "/",
+  "start_url": "/PWAtest/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/PWAtest/icon.png",
       "sizes": "256x256",
       "type": "image/png"
     }
