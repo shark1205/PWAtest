@@ -4,6 +4,7 @@ self.addEventListener('install', e => {
           return cache.addAll([
               '/PWAtest/',
               '/PWAtest/index.html',
+              '/PWAtest/manifest.json',
               '/PWAtest/app.js'
           ]);
       })
